@@ -6,6 +6,6 @@ import AppHero from './components/AppHero.vue'
 
 <template>
   <HelloWorld msg="La mia prima app con Vite!" />
-  <AppHero msg="Prova testo in Hero!" />
+  <AppHero ciao="Prova testo in Hero!" />
 </template>
 

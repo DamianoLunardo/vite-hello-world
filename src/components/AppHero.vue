@@ -2,20 +2,21 @@
 import { ref } from 'vue'
 
 defineProps({
-  msg: String,
+  ciao: String,
 })
 
 const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-  <div></div>
+  <h1>{{ ciao }}</h1>
+ 
 </template>
 
 <style scoped>
-  div {
+  h1 {
     background-image: url(occhio.jpg);
     height: 100vh;
+    color: white;
   }
 </style>
