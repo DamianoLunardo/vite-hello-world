@@ -10,7 +10,12 @@ const count = ref(0)
 
 <template>
   <h1>{{ msg }}</h1>
-  <div>
-    <img src="/public/occhio.jpg">
-  </div>
+  <div></div>
 </template>
+
+<style scoped>
+  div {
+    background-image: url(occhio.jpg);
+    height: 100vh;
+  }
+</style>
